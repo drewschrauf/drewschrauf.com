@@ -97,6 +97,6 @@ Putting this all together for our calendar we will end up with a component tree 
 
 ![Component Diagram](/ReactState.svg)
 
-_The `value` and `onChange` arguments have been left out of the `makeLink` calls for brevity_
+_The `value` and `onChange` arguments have been left out of the `makeLink` calls for brevity_.
 
 I've made a simple little library that wraps these ideas up into a couple of convenience methods and a decorator. You can find [LinkValue](https://github.com/drewschrauf/link-value) over on [npm](https://www.npmjs.com/package/link-value). Give it a go next time you're making a form or a filter and let me know what you think!
