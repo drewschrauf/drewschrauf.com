@@ -1,0 +1,8 @@
+<layout-use('../layout.marko')>
+  <layout-put into="header">
+    <h1>Posts</h1>
+  </layout-put>
+  <layout-put into="body">
+    <post-preview for(post in data.context.posts) post="${post}"/>
+  </layout-put>
+</layout-use>

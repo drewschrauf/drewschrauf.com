@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" href="/favicon.ico">
+  <title><layout-placeholder name="title">Drew Schrauf</layout-placeholder></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <layout-placeholder name="head"/>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/styles.css">
+  <google-analytics/>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="blog-masthead">
+      <div class="container">
+        <div class="logo pull-left">
+          <a class="logo-name" href="/">Drew Schrauf</a>
+        </div>
+        <nav class="blog-nav pull-right">
+          <a class="blog-nav-item" href="/">Home</a>
+          <a class="blog-nav-item" href="/posts/1">Posts</a>
+        </nav>
+      </div>
+    </div>
+
+    <header>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-8 col-sm-offset-2">
+            <div class="text-center">
+              <layout-placeholder name="header"/>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="content">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <layout-placeholder name="body"/>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="social text-center">
+        <a class="social-link" href="https://github.com/drewschrauf" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+        <a class="social-link" href="https://twitter.com/drewschrauf" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+      </div>
+    </footer>
+  </div>
+  <script src="/bundle.js"></script>
+  <layout-placeholder name="endbody"/>
+</body>
+</html>

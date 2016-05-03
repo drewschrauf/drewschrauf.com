@@ -1,0 +1,23 @@
+<layout-use('../layout.marko')>
+  <layout-put into="title">${data.context.title} :: Drew Schrauf</layout-put>
+
+  <layout-put into="header">
+      <h1>${data.context.title}</h1>
+      <span class="post-date">${data.context.date.format('Do MMM YYYY')}</span>
+  </layout-put>
+
+  <layout-put into="body">
+    <div class="post">
+      $!{data.context.content}
+    </div>
+  </layout-put>
+
+  <layout-put into="head">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.3.0/styles/default.min.css">
+  </layout-put>
+
+  <layout-put into="endbody">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.3.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+  </layout-put>
+</layout-use>

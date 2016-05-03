@@ -1,0 +1,68 @@
+@value background, text, primary, secondary, tertiary from './colors.css';
+@import url(//fonts.googleapis.com/css?family=Roboto);
+
+html,
+body {
+	margin:0;
+	padding:0;
+	height:100%;
+}
+
+body {
+  background-color: background;
+  font-family: 'Roboto', sans-serif;
+  color: text;
+}
+
+.wrapper {
+	min-height:100%;
+	position:relative;
+}
+
+.blog-masthead {
+  background-color: primary;
+  border-bottom: 2px solid tertiary;
+}
+
+.blog-nav-item, .logo-name {
+  display: inline-block;
+  color: background;
+  padding: 10px;
+  font-size: 1.3em;
+}
+
+.blog-nav-item:hover, .blog-nav-item:focus,
+.logo-name:hover, .logo-name:focus {
+  color: background;
+}
+
+.content {
+  margin-top: 15px;
+  padding-bottom: 85px;
+}
+
+header {
+  background: linear-gradient(secondary, background);
+  padding-bottom: 20px;
+}
+
+footer {
+  background-color: primary;
+	width:100%;
+	height:70px;
+	position:absolute;
+	bottom:0;
+	left:0;
+}
+
+.social-link {
+  display: inline-block;
+  padding: 10px;
+
+  color: background;
+  font-size: 2.5em;
+}
+
+.social-link:hover, .social-link:focus {
+  color: background;
+}
