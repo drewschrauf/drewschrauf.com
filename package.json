@@ -9,7 +9,6 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Drew Schrauf",
-  "license": "ISC",
   "devDependencies": {
     "acid-plugin-blog": "drewschrauf/acid-plugin-blog",
     "acid-plugin-static": "^0.1.1",
