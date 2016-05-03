@@ -10,7 +10,7 @@ deploy:
   bucket: drewschrauf.com
   local-dir: dist
   skip_cleanup: true
-  region: us-west-2
+  region: us-west-1
   on:
     tags: true
     repo: drewschrauf/drewschrauf.com
