@@ -27,6 +27,7 @@
     "webpack-plugin-acid": "^0.1.3"
   },
   "dependencies": {
-    "bootstrap": "^3.3.6"
+    "bootstrap": "^3.3.6",
+    "prismjs": "^1.5.1"
   }
 }
