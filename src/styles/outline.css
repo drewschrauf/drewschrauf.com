@@ -3,14 +3,16 @@
 
 html,
 body {
-	margin:0;
-	padding:0;
-	height:100%;
+  margin:0;
+  padding:0;
+  height:100%;
+  font-size: 62.5%;
 }
 
 body {
   background-color: background;
   font-family: 'Roboto', sans-serif;
+  font-size: 1.6em;
   color: text;
 }
 
@@ -41,6 +43,10 @@ body {
   padding-bottom: 85px;
 }
 
+.content p {
+  margin-bottom: 1.2em;
+}
+
 header {
   background: linear-gradient(secondary, background);
   padding-bottom: 20px;
@@ -49,7 +55,7 @@ header {
 footer {
   background-color: primary;
 	width:100%;
-	height:70px;
+	height:5em;
 	position:absolute;
 	bottom:0;
 	left:0;
