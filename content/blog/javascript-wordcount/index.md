@@ -1,6 +1,7 @@
 ---
-title: Javascript Wordcount that Works
-date: 2012/06/13
+slug: "/javascript-wordcount"
+title: "Javascript Wordcount that Works"
+date: "2012-06-13"
 ---
 Recently I had to make some forms for a site I was working on. This site required textareas for long-form responses with a wordcount displayed underneath so that the user was aware of how many words they had left. Not wanting to write this myself I went online to find a decent jQuery plugin to do it for me but found that they almost all feel victim to the same issue. Behold the (incorrect) code below:
 

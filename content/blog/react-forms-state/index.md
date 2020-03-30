@@ -1,7 +1,11 @@
 ---
-title: Handling State in React Forms
-date: 2016/05/03
+slug: "/react-forms-state"
+title: "Handling State in React Forms"
+date: "2016-05-03"
 ---
+
+import reactState from './images/ReactState.svg';
+
 There's a bit of an art to handling state in React components. Keeping state in as few places as possible is one matter, passing it around and updating it is another. Often the manipulations that must be performed on that state lead to a huge number of change handlers being passed through multiple layers of components tightly coupling your entire system.
 
 React has a nifty little concept called [ValueLink](https://facebook.github.io/react/docs/two-way-binding-helpers.html) that it deprecated in version 15. A ValueLink is an object that bundles a value with a handler that knows how to update that value. Packaging these two together means that you no longer have to worry about multiple values and associated handlers being passed around. You simply pass the bundle around and use the value when you need to display it and the handler when you need to update it. While ValueLink itself is deprecated, there's still a lot that can be taken from this pattern and applied to your apps even now.
@@ -95,7 +99,7 @@ You'll notice here that the stateful component doesn't know anything about the v
 
 Putting this all together for our calendar we will end up with a component tree that looks like this:
 
-![Component Diagram](/ReactState.svg)
+<img src={reactState} alt="Component Diagram" style={{ width: '100%' }} />
 
 _The `value` and `onChange` arguments have been left out of the `makeLink` calls for brevity_.
 
